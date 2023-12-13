@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(8,131,149);
+background: linear-gradient(90deg, rgba(8,131,149,1) 0%, rgba(27,98,132,1) 100%, 
+rgba(46, 67, 116, 0.57) 98.01%);
+}
+
+
+nav .icone{
+    margin:15%;
+}
+
+nav .foto{
+    margin-top:15px;
+}
+
+nav .titulo_nome{
+    color: white;
+    margin-top: 17px;
+    text-align: center;
+}
+
+.relative{
+    position:relative;
+}
+
+nav .btn_baixo{
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    margin: 10px;
+    color: white;
+    right: 26px;
+    top: 15px;
+    transform: rotate(315deg);
+}
+nav .btn_receita{
+    right: 41px;
+    top: 5px;
+}
+
+nav .receita{
+    font-size: calc(0.75rem + 1.5vw);
+    background-color: #ffffff66;
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 3px;
+    border-radius: 27px;
+    color: #088395;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+nav .mes{
+    text-align:center;
+    color:white;
+    margin-top: 10px;;
+    font-weight: 600;
+}
+nav .btn-esquerda{
+    position: absolute;
+    right: 0px;
+    width: 8px;
+    height: 8px;
+    top: 19px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    transform: rotate(47deg);
+}
+nav .btn-direita{
+    position: absolute;
+    left: 0px;
+    width: 8px;
+    height: 8px;
+    top: 19px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    transform: rotate(223deg);
+}
+
+section{
+    background-color:white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height:560px;
+}
+.topo img{
+    position:absolute;
+    left:20px;
+    top:10px;
+
+}
+.topo div{
+    font-size: 14px;
+    text-align: center;
+    padding: 0px;
+    padding-left: 12px;
+}
+.traco{
+    border-right:1px solid #00000029
+}
+.valor{
+    color: green;
+    font-weight: 700;
+}
+.texto-valor{
+    color:#CCD7D1;
+}
+.traco_baixo{
+    width: 90%;
+    height: 10px;
+    border-bottom: 1px solid #00000026;
+    margin: 0 auto;
+}
+.nova-receita{
+    color: #088395;
+    font-size: 14px;
+    font-weight: 700;
+    margin:20px;
+    margin-left:45px;
+}
+.espaco-topo{
+    margin-top:10px;
+}
+.btn_mais{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.dia {
+    margin: 35px;
+    margin-top: 1px;
+    font-size: 12px;
+    color: #CCD7D1;
+}
+.local{
+    padding:10px;
+}
+.recebido p{
+    color:black;
+    margin-top: 5px;
+    margin-bottom: -25px;
+    
+}
+.recebido span{
+    color:#CCD7D1;
+    margin-top:-10px;
+}
+.instituicao{
+margin-top:10px;
+color: #28883D;
+font-style: normal;
+font-weight: 500;
+
+}
+.icon{
+    width:40px;
+    height: 40px;;
+    border-radius:100%;
+    margin-left:10px;
+    background-color:#e8e9e9;
+}
+.seta{
+    
+    width:19px;
+    height: 19px;
+    margin-left:10px;
+    margin-top:10px;
+    
+
+}
+.meio{
+    margin-top:20px;
+}
